@@ -1,0 +1,378 @@
+.main-pedido {
+    height: 350px;
+    width: 100%;
+    background-color:gray;
+    padding-left: 10px;
+    background-image: url(multimedia/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.pedido-box{
+    background-color: rgba(99, 81, 16, 0.808);
+    height: 200px;
+    width: 70%;
+    padding: 10px;
+    border: 3px solid orange;
+    
+}
+.pedido-box h1{
+    color: black;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.6) ;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.pedido-box p{
+    color: white;
+    text-align: justify;
+}
+.pedido-box a{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.main-pedido a:hover{
+    color: rgb(10, 9, 9) ;  
+}
+
+                           /* SECCIION ESPECIALIDADES  */
+ 
+ .nesp{
+    height: 1200px;
+    width: 100%;
+    background-color:#41644A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+  .texto-n-e{
+    text-align:center;
+    font-size: 20px;
+    background-color:#FEFBE9;
+    color:  #F0A04B;
+    padding: 10px;   
+}                                                               
+
+.pollo-plancha{
+    background-color:#FEFBE9;
+    height: 350px;
+    width: 90%;
+    border: 3px solid #F0A04B;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    
+    
+}
+.pollo-plancha h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#f39e43;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+}
+.pollo-plancha p{
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.pollo-plancha-img{
+    height:140px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.rounded{
+    height:140px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+                              /* CONTACTO */
+.contacto{
+    background-color: #E1EEDD; 
+    height: 420px;
+}
+.contacto h2{
+    text-align:center;
+    font-size: 20px;
+    background-color:#E1EEDD;
+    color:  black;
+    padding-top: 5px;
+}
+
+.list-contacto{
+    list-style: none;
+    padding: 1px;
+    text-align: left;
+    font-size: 15px;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+                                     /* FOOTER STAR  */
+.footer{
+    background-color: #9D5C0D;
+    margin-top: 3px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer h2{
+    color: #E1EEDD;
+    font-size: 20px;
+    text-align: justify;
+    padding: 3px;
+}
+.footer p{
+    color: #E1EEDD;
+    font-size: 12px;
+
+}
+                                      /* FOOOTER END  */
+
+                                        
+                                      
+                                    /*      PEDIDO.HTML     SECCION DE PEDIDOS STAR*/
+.pedidoh1{
+    background-color: #E1EEDD;
+    font-size: 15px;
+    border-radius: 3px solid #F0A04B;
+    color:black;
+}
+.armabolw{
+    height: 100vh;
+    width: 100%;
+}                                                              
+
+.arma-pedido{
+    height: 200 px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8DF8E;
+    font-size: 10px;
+}
+ 
+.arroz{
+    height: 300px;
+    width: 50%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.vegetales{
+    height: 300px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.toques{
+    height: 300px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.salsa{
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.aderesos{
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.extra{
+    height: 300px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.ultimo{
+    height: 300px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+.palta{
+    height: 300px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(4, 97, 11, 0.829);
+}
+
+                                           /* SECCION DE PEDIDOS END*/
+
+                                             /* SOBRE NOSOTROS HTML - STAR */
+
+.nos{
+    background-color:#E1EEDD;
+}
+
+.nos h3{
+    font-size: 15px;
+    text-align: start;
+    color:black;
+    padding: 15px;
+}
+
+.contenedor{
+    height: 400px;
+    width: 100%;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+}
+
+.item{
+    background-size: cover;
+    background-position: center;
+}
+
+.item1{
+    background-image: url(multimedia/1.jpg);
+}
+
+.item2{
+    background-image: url(multimedia/5.jpg);
+}
+.item3{
+    background-image: url(multimedia/6.jpg);
+}
+
+.item4{
+    background-image: url(multimedia/bowl.jpg);
+}
+.item5{
+    background-image: url(multimedia/Fondo.jpg);
+}
+
+.item6{
+    background-image: url(multimedia/5.jpg);
+}
+.item7{
+    background-image: url(multimedia/6.jpg);
+}
+
+.item8{
+    background-image: url(multimedia/6.jpg);
+}
+
+                                           /* SOBRE NOSOTROS HTML - END */
+
+
+                                           /* INICIO RESPONSIVE */
+
+@media only screen and (min-width: 600px)and (max-width: 719px){
+
+    .nesp{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        height: 800px;
+    }
+    .pollo-plancha{
+        height: 350px;
+        width: 300px;
+
+   }
+   .text-pollo{
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    
+   
+    }
+    .pollo-plancha-img {
+    height: 250px;
+    width: 250px;
+    }
+}
+.mapa{
+    width: 100%; 
+}
+
+@media only screen and (min-width: 719px) and (max-width: 1023px){
+
+    .nesp{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .texto-n-e{
+        font-size: 40px;
+        text-align: center;
+    }
+    .pollo-plancha{
+        align-items: center;
+        align-content: space-around;
+        height: 250px;
+        display: flex;
+        padding: 5px;
+   }
+  
+    .text-pollo{
+        font-size: 30px;
+        text-align: justify;
+        float: left;
+        width: 400px;
+        padding: 3px;
+       
+    }
+    .pollo-plancha-img {
+        height: 250px;
+        width: 300px;
+        float: right;
+    }
+    .pollo-plancha h3{
+    font-size: 25px;
+    }
+    .pollo-plancha p{
+    font-size: 20px;
+    padding: 3px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+}
