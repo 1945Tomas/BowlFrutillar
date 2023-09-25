@@ -1,0 +1,81 @@
+
+.contacto_formulario{
+  background-color: $COLOR2;
+  height: 800px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+    .left{
+      text-align: center;
+      font-size: 12px;
+      text-decoration: none;
+      list-style: none;
+      padding: 10px;
+      .icon{
+        font-size: 20px;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        color: green ;
+      }
+    }
+    .rigth{
+      text-align: center;
+      margin-top: 50px;
+      h2{
+        font-size: 10px;
+      }
+      h3{
+        font-style: italic;
+        font-size: 12px;
+      }
+    }
+}
+
+//INICIO RESPONSIVE 
+@media only screen and (min-width: 480px)and (max-width: 1022px){
+  .left{
+    .icon{
+      font-size: 30px
+    }
+  }
+  .rigth{
+    h2{
+      text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  }
+}
+@media only screen and (min-width: 1023px) {
+.contacto_formulario{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: first baseline;
+  .rigth{
+    float: right;
+    h2{
+      font-size: 30px;
+    }
+  .left{
+    justify-content: start;
+    float: left;
+    li{
+      text-align: start;
+    }
+    .icon{
+      font-size: 20px;
+    }
+  }
+  }
+}
+.header{
+font-size: 25px ;     
+}
+}

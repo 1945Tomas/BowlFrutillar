@@ -1,0 +1,102 @@
+
+//MI PALETA
+$COLOR1:#F0A04B ; 
+$COLOR2:#E1EEDD;
+$COLOR3:#217d05be;
+$COLOR3orange:#D95204;
+
+
+.container{
+  @include h-w(2000px, 100%);
+  background-image: url(./multimedia/black-1072366_1280.jpg);
+  @include brg(cover, center);
+  color: white;
+  h1{
+  @include fuente(30px, $COLOR2, start);
+  font-weight: bold;
+  padding-left: 15px;
+  font-family:$fontpedido !important; 
+  text-transform:capitalize;
+  text-shadow: -4px 4px 4px  black ;
+}
+  .cardpedido{
+    .animacion{
+    @include h-w(130px, 100%);
+    margin:20px auto;
+    overflow: hidden;
+      .animacionbolw{
+      @include h-w(100px, 100px);
+      margin: 0 auto;
+      display: inline-block;
+      animation: bolwanimado 5s infinite ;
+      @keyframes bolwanimado {
+        0%{
+          transform: translatex(1000px)
+          scale(.3)
+        }
+        50%{
+          transform: rotate(-40deg)
+          scale(1.1)
+        }
+        75%{
+          transform: rotate(40deg)
+        }
+        100%{
+          transform: translatex(1100px)
+        }
+      }
+    }  
+    }
+    
+    @include h-w(600px, 100%);
+    text-align: center;
+    h2{
+      @include fuente(25px, white, center);
+      font-family: $fontaux;
+      background-color:$COLOR3 ;
+    }
+    @for $i from 1 through 6{
+      .tx#{$i} {
+        background-color: darken($COLOR1, $i * 4%);
+        
+      }
+    }
+    h3{
+      color: white;
+      padding: 3px;
+      border-radius: 10px solid $COLOR1;
+    }
+    section{
+      display: inline-block;
+    }
+    }
+    .rounded-circle{
+      @include h-w(90px, 90px);
+      padding: 5px;
+      margin-right: 10px;
+    }
+    input{
+      text-align: center;
+    }
+    P{
+      font-size: 10px;
+    } 
+  }
+//INICIO RESPONSIVE 
+@media only screen and (min-width: 480px)and (max-width: 768px){
+  .container{
+    height: 1350px;}
+}
+@media only screen and (min-width: 769px)and (max-width: 1023px ){
+  .container{
+    height: 1200px;}
+}
+@media only screen and (min-width: 1023px) {
+  .container{
+    height: 1000px;
+    padding: 15px;
+}
+.header{
+font-size: 25px ;     
+}
+}

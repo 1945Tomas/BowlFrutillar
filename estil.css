@@ -8,7 +8,7 @@
   background-color: gray;
   padding: 0px;
   padding-left: 10px;
-  background-image: url(../multimedia/index/Fondo.jpg);
+  background-image: url(./multimedia/index/Fondo.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -98,22 +98,22 @@
   margin-left: 25%;
 }
 * .nesp .especialidad1 {
-  background-image: url("../multimedia/especialidades/especialidad1.jpg");
+  background-image: url("./multimedia/especialidades/especialidad1.jpg");
   background-size: cover;
   background-position: center;
 }
 * .nesp .especialidad2 {
-  background-image: url("../multimedia/especialidades/especialidad2.jpg");
+  background-image: url("./multimedia/especialidades/especialidad2.jpg");
   background-size: cover;
   background-position: center;
 }
 * .nesp .especialidad3 {
-  background-image: url("../multimedia/especialidades/especialidad3.jpg");
+  background-image: url("./multimedia/especialidades/especialidad3.jpg");
   background-size: cover;
   background-position: center;
 }
 * .nesp .especialidad4 {
-  background-image: url("../multimedia/especialidades/especialidad4.jpg");
+  background-image: url("./multimedia/especialidades/especialidad4.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -362,42 +362,42 @@
   transition: all 0.5s;
 }
 * .nos .contenedor .item1 {
-  background-image: url("/multimedia/bowl_mix/item1.jpg");
+  background-image: url("../multimedia/bowl_mix/item1.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item2 {
-  background-image: url("/multimedia/bowl_mix/item2.jpg");
+  background-image: url("../multimedia/bowl_mix/item2.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item3 {
-  background-image: url("/multimedia/bowl_mix/item3.jpg");
+  background-image: url("../multimedia/bowl_mix/item3.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item4 {
-  background-image: url("/multimedia/bowl_mix/item4.jpg");
+  background-image: url("../multimedia/bowl_mix/item4.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item5 {
-  background-image: url("/multimedia/bowl_mix/item5.jpg");
+  background-image: url("../multimedia/bowl_mix/item5.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item6 {
-  background-image: url("/multimedia/bowl_mix/item6.jpg");
+  background-image: url("../multimedia/bowl_mix/item6.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item7 {
-  background-image: url("/multimedia/bowl_mix/item7.jpg");
+  background-image: url("../multimedia/bowl_mix/item7.jpg");
   background-position: center;
   background-size: cover;
 }
 * .nos .contenedor .item8 {
-  background-image: url("/multimedia/bowl_mix/item8.jpg");
+  background-image: url("../multimedia/bowl_mix/item8.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -716,4 +716,4 @@
   }
 }
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=estil.css.map */
