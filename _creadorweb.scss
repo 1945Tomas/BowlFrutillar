@@ -6,7 +6,7 @@ $COLOR4:rgba(255, 255, 0, 0.687);
 //CREADOR WEB HTML - STAR 
 .bodyW{
   @include h-w(100vh, 100%);
-  background: url(../multimedia/desarrollador.jpg);
+  background: url(./multimedia/desarrollador.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   .web{
