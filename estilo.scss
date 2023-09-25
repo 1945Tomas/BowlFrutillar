@@ -42,7 +42,7 @@ font-family: $fontprincipal;
 .main-pedido {
     @include clasic(350px, 100%, gray , 0px );
     padding-left: 10px; 
-    background-image: url(../multimedia/index/Fondo.jpg);
+    background-image: url(./multimedia/index/Fondo.jpg);
     @include brg(cover, center);
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@ font-family: $fontprincipal;
     margin-left: 25%;}
     @each $esp in especialidad1,especialidad2,especialidad3,especialidad4 {
         .#{$esp} {
-        background-image: url("../multimedia/especialidades/#{$esp}.jpg");
+        background-image: url("./multimedia/especialidades/#{$esp}.jpg");
         @include brg(cover, center);
         }
     }

@@ -28,7 +28,7 @@ $COLOR2:#E1EEDD;
 
       @each $bolw in item1,item2,item3,item4,item5,item6,item7,item8 {
           .#{$bolw} {
-            background-image: url("/multimedia/bowl_mix/#{$bolw}.jpg");
+            background-image: url("../multimedia/bowl_mix/#{$bolw}.jpg");
             background-position: center;
             background-size: cover;
           }
